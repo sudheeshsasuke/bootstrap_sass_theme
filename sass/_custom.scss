@@ -45,3 +45,35 @@
     width: 100%;
   }
 }
+
+.panel-heading h4 {
+  color: set-text-color($main-color);
+}
+
+.section-c {
+  padding: 60px 0;
+  background: $main-color;
+  color: set-text-color($main-color);
+  text-align: center;
+
+  .btn-primary {
+    background: darken($main-color, 10%);
+  }
+}
+
+.title-bar {
+  background: url(../img/startup.jpg) no-repeat;
+  padding-bottom: 10px;
+  border-bottom: 4px solid $main-color;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+footer {
+  padding: 30px 0;
+  text-align: center;
+  color: set-text-color($main-color);
+  background: darken($main-color, 10%);
+}
